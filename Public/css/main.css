@@ -1,0 +1,127 @@
+*{
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    /* background-color: gray; */
+}
+body{
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#container{
+    /* border: 2px solid blue; */
+    background-color: white;
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 5.5%;
+    height: 70vh;
+    border-radius:20px ;
+    box-shadow:0.3px 0.2px 10px #ccd6f9;
+}
+#imgcontainer{
+    /* border: 2px solid black; */
+    height: 32%;
+}
+#imgd{
+    border-radius: 20px 20px 0 0px;
+}
+#pcontent{
+    /* border: 2px solid brown; */
+    height: 67%;
+    border-radius: 0 0 20px 20px;
+}
+#heading{
+    margin-left: 20%;
+    margin-top: 8%;
+    font-size: 35px;
+    font-weight: 50%;
+    color: #243549;
+    font-family: sans-serif ;
+
+}
+#context{
+    text-align: center;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: #80849d;
+
+}
+#buy{
+
+    /* border: 2px solid brown; */
+    height: 40%;
+    
+    /* padding: 10px; */
+}
+#bb{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    width: 80%;
+    height: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f7f7f9;
+}
+#mimg{
+   
+    scale: 100%;
+    border-radius: 100%;
+}
+#sell{
+    display: block;
+    /* margin-top: 3%; */
+    margin-left: 5%;
+    width: 80%;
+   
+    
+}
+#price{
+    
+    /* margin-left: 5%; */
+    text-decoration: none;
+    color: #21314b;
+    font-size: 20px;
+    font-weight: bold;
+}
+#amt{
+    margin-top: 2px;
+    display: block;
+    margin-left: 2%;
+    padding: 2px;
+    color: #858aa7;
+}
+#change{
+    margin-top: 5%;
+    font-weight: 700;
+    color: #4531eb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#proceed{
+    display: block;
+    color: white;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 20px 10px#dedbf8;
+    margin-left: 6.5%;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    padding: 15px;
+    background-color:#382ae1 ;
+}
+#cancelorder{
+    display: block;
+    margin-top: 3%;
+    text-decoration: none;
+    margin-left: 40%;
+    color: #707b91;
+    font-size: 18px;
+    font-weight: bolder;
+}
